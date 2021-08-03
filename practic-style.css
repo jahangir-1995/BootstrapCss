@@ -1,0 +1,9 @@
+h1{
+    color: aqua;
+    background-color: rgb(10, 10, 0);
+    height: 2rem;
+    width: 8rem;
+    padding: .5rem;
+    padding-top: 2px;
+    text-align: center;
+}
