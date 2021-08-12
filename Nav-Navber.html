@@ -10,9 +10,9 @@
     <title>NavbarAdd</title>
 </head>
 <body>
-    <h1>Nav & Navbar</h1>
+    <h1 class="text-center text-warning bg-dark pb-1">Nav & Navbar</h1>
 
-    <nav class="navbar bg-info navbar-expand-sm navbar-info">
+    <nav class="navbar-expand-md navbar bg-info navbar-info">
 
         <div class="container">
 
@@ -42,37 +42,47 @@
             </div>
 
     <!--Navbar with responsive toggle-->
-
-    <nav class="navbar bg-info navbar-expand-md navbar-info">
-
-        <div class="container">
-
-                <a class="navbar-brand" href="#">Navbar</a>
-
-                <button class="navbar-toggler navbar-toggler-right"><span class="navbar-toggler-icon"></span></button>
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-         </div>
-     </nav>
-            <br> <br>
+    <nav>
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quam.
-                </p>
-            </div>    
+            <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarNav"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="NavbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link " href="#">About</a>
+                        <a class="nav-link " href="#">Contact</a>
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <br> <br>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae atque quisquam ipsum ut iusto fugiat nisi adipisci consequuntur sapiente quia enim harum rerum, veniam saepe, explicabo, dignissimos ipsa aperiam suscipit.</p>
+        </div>
+    </nav>
+
+    <br> <br>
+      <!--FromBootstrap-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">  
+                <div class="container">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" href="#">Home</a>
+                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
 
         <!--Script-->
         <script src="js/bootstrap.bundle.min.js">
